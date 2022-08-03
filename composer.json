@@ -1,0 +1,20 @@
+{
+    "name": "mrsuh/php-ast",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrsuh\\PhpAst\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sukhachev Anton",
+            "email": "mrsuh6@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-ffi": "*"
+    }
+}
