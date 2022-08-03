@@ -28,6 +28,7 @@ RUN ./configure --with-ffi
 RUN make
 RUN make install
 
-RUN make php-src
+RUN ./buildconf --force
+RUN ./configure
 
 WORKDIR /code
