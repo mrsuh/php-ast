@@ -8,10 +8,14 @@
 
 ## Usage
 
+```bash
+composer require mrsuh/php-ast
+```
+
 ```php
 <?php
 
-require __DIR__. '/../vendor/autoload.php';
+require __DIR__. '/vendor/autoload.php';
 
 use Mrsuh\PhpAst\Parser;
 use Mrsuh\PhpAst\Printer;
