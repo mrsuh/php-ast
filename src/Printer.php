@@ -13,7 +13,7 @@ class Printer
             $node->value ? sprintf(" \"%s\"", $node->value) : ''
         );
         foreach ($node->children as $child) {
-            self::print($child, $indent + 1);
+            self::print($child, $indent + 2);
         }
     }
 }
