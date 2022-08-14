@@ -25,7 +25,7 @@ WORKDIR /code/php-src
 
 RUN ./buildconf --force
 RUN ./configure --with-ffi
-RUN make
+RUN make -j$(nproc)
 RUN make install
 
 RUN ./buildconf --force

@@ -5,6 +5,7 @@ typedef struct _node_ast node_ast;
 
 struct _node_ast {
 	const char *kind;
+	const char *attr;
 	const char *value;
 	int lineno;
 	int children;
