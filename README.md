@@ -78,7 +78,7 @@ run bin/test.php
 
 ```bash
 docker build -t php-ast .
-docker run --rm -it php-ast bash
+docker run --rm -v $PWD:/code -it php-ast bash
 make
 php bin/test.php
 ```

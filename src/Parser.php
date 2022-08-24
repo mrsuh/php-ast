@@ -51,7 +51,6 @@ class Parser
 
         $node         = new Node();
         $node->kind   = $ast->kind;
-        $node->attr   = $ast->attr;
         $node->value  = $ast->value;
         $node->lineno = $ast->lineno;
 
