@@ -1,7 +1,5 @@
 # PHP AST
 
-:warning: WIP
-
 ### Requirements
 * PHP >= 8.0 (with FFI)
 * Linux(x86_64) / Darwin(x86_64)
