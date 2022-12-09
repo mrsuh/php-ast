@@ -1,5 +1,7 @@
 # PHP AST
 
+![Tests](https://github.com/mrsuh/php-ast/actions/workflows/tests.yml/badge.svg)
+
 ### Requirements
 * PHP >= 8.0 (with FFI)
 * Linux(x86_64) / Darwin(x86_64)
