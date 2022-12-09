@@ -12,7 +12,6 @@ jobs:
         strategy:
             matrix:
                 php-version:
-                    - "7.4"
                     - "8.0"
                     - "8.1"
                     - "8.2"
@@ -29,6 +28,9 @@ jobs:
                     php-version: "${{ matrix.php-version }}"
                     ini-values:  memory_limit=-1
                     tools:       composer:v2
+
+            -   name: "Install dependencies"
+                run:  "composer install --no-interaction --no-progress --no-suggest"
 
             -   name: "Tests"
                 run:  "php bin/test.php"
